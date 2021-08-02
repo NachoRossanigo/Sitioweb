@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: transparent;
+  height: 100%;
+  width: 100vw;
+}
+header img {
+  width: 80px;
+  height: 80px;
+}
+
+nav {
+  margin-top: -50px;
+}
+
+.imagenContenedor {
+  margin-top: -20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1f2222;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  color: white;
+  padding: 10px 60px;
+  text-decoration: none;
+  display: block;
+}
+ul li a:hover {
+  background-color: #6b6767;
+}
+
+.desplegable {
+  display: none;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/photos/abstract-grunge-dark-blue-background-picture-id1156315649?k=6&m=1156315649&s=612x612&w=0&h=HODtv5UDQMuobizQW-X2Y4pLvSH-WxWAktK-U17L7Ug=);
+  max-width: 100vw;
+}
+
+.tituloHistoria {
+  text-decoration: underline;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  margin-top: -15px;
+}
+
+.listaFutbol {
+  list-style: decimal-leading-zero;
+  text-align: left;
+  display: flex;
+  background-color: #1d1d1d;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+}
+.listaFutbol .tituloLista {
+  text-align: left;
+  font-style: normal;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.listaFutbol .jugadorLista {
+  display: block;
+  color: white;
+  font-style: italic;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.tablaTitulos table {
+  color: black;
+  border: 2px solid black;
+  margin: 70px auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+iframe {
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  max-height: 50px;
+  margin-top: 100px;
+  background: #2d2d2e;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.display-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.w-100 {
+  width: 600px;
+  height: 600px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #060629;
+  width: 100%;
+}
+
+form {
+  color: #0d11f1;
+  text-align: center;
+  padding: 30px;
+  background: #0c0909;
+  border: 6px double #19194b;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 7px;
+  margin: 4px;
+  border: none;
+  border-bottom: 3px solid #060629;
+  background: #1f2125;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.form-input .form-input:focus {
+  background: linear-gradient(bottom, transparent, red);
+  outline: none;
+  border-bottom: 3px solid #060629;
+}
+.form-input .form-input::placeholder {
+  color: white;
+}
+
+label {
+  display: none;
+}
+
+.form-legend {
+  padding: 5px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+fieldset {
+  padding: 30px;
+  color: white;
+}
+
+.form-bottom {
+  background: #1f2125;
+  border-bottom: none;
+  padding: 12px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.form-bottom:active {
+  background: #2e2f31;
+  border-radius: 10px;
+}
+
+.form-select {
+  background: #1f2125;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+}
+
+.form-textarea {
+  text-decoration: none;
+  background-color: #292a2c;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  border: 2px double black;
+  outline: none;
+  max-height: 150px;
+  max-width: 250px;
+}
+
+.contenedor-video {
+  text-align: center;
+}
+
+.sectionClub {
+  padding: 30px;
+}
+
+.imagenClub {
+  margin: 20px;
+  margin-left: -20px;
+  border-radius: 10px;
+}
+
+.parrafoClub {
+  font-style: italic;
+  border: 2px double white;
+  margin-left: -20px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.tituloHistoria {
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-shadow: 1px 2px 2px #252323;
+}
+
+.tituloHistoria:hover {
+  text-shadow: 1px 2px 4px #252323;
+}
+
+.parrafoHistoria {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.contenedorTexto {
+  border: 2px solid white;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.contenedorTexto:hover {
+  border: 4px solid blue;
+}
+
+.parrafoTexto {
+  font-size: 20px;
+}
+
+.contenedorImagenp {
+  text-align: center;
+}
+.contenedorImagenp .imagenPrensa {
+  width: 800px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.textoPrensa {
+  margin: 10px;
+  padding: 10px;
+}
+
+.contenedorImagenclub {
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloClub2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.tituloClub1 {
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imagenClub {
+  width: 600px;
+  margin: 20px;
+}
+
+.imagenesFutbol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagenFutbol {
+  width: 600px;
+  margin: 20px;
+}
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+.imagenInicio {
+  width: 100%;
+}
+
+.persona__columna {
+  margin: 5px;
+}
+
+.personas .contenedor {
+  display: grid;
+}
+
+.contenedorTitulo {
+  transition: all 1s;
+}
+.contenedorTitulo .tituloPrensa {
+  text-align: center;
+  text-shadow: 4px 4px 2px #202020;
+  margin: 15px;
+}
+.contenedorTitulo .contenedorTitulo:hover {
+  width: 100vw;
+  background-color: #060629;
+  border-radius: 10px;
+  border: transparent;
+  margin: 20px auto;
+}
+
+h1 {
+  animation-name: efecto;
+  animation-iteration-count: 3;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  margin: 50px 0;
+}
+.imgHistoria {
+  border-radius: 10px;
+}
+.contenedorimgHistoria {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Linea de tiempo */
+@keyframes efecto {
+  0% {
+    /* estilos */
+    transform: translateX(0);
+  }
+  25% {
+    width: 600px;
+    transform: scale(0.5);
+    transform: translateX(300px);
+  }
+  50% {
+  }
+  75% {
+    width: 600px;
+    transform: scale(0.5);
+    transform: translateX(300px);
+  }
+  100% {
+    /* estilos */
+    border-radius: 10px;
+    border: transparent;
+  }
+}
+
+h1:hover {
+  transform: skew(2deg, 2deg);
+}
+
+@media (min-width: 320px) {
+  .contenedorTexto {
+    width: 60%;
+  }
+}
+
+@media (min-width: 520px) {
+  .personas .contenedor {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .contenedorTexto {
+    width: 60%;
+  }
+}
+
+@media (min-width: 728px) {
+  .personas .contenedor {
+    grid-template-columns: repeat(3, 33.3%);
+  }
+  .contenedorTexto {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .personas .contenedor {
+    grid-template-columns: repeat(4, 25%);
+  }
+  .contenedor {
+    width: 1024px;
+  }
+  .contenedorTexto {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) and (min-width: 1200px) {
+  .contenedor {
+    width: 1200px;
+  }
+}
